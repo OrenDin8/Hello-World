@@ -1,0 +1,38 @@
+<<!DOCTYPE html>
+<html>
+  <head>  
+    <title> My first HTML</titel>
+  </head>
+  <body>
+    <h1> Things I've Learned</h1>
+    <h2> Internet Basics</h2>
+      <ol>
+          <li> HTTP Request </li>
+          <li> IP Addresses </li>
+          <li> Servers </li>
+      </ol>
+    <h2> HTML </h2>
+    <ul>
+       <li> Standart for <strong> Hyper Text Languge </strong> </li>
+       <li> Lot of tags </li>
+       <ul>
+         <li> Boilerplate </li>
+          <ol> 
+             <li> Docotype </li>
+             <li> HTML </li>
+             <li> Head </li>
+                <ol>
+                  <li> Titel </li>
+                </ol>
+             <li> Body </li>
+            </ol>
+         <li> Heading </li>
+         <li> Paragraph </li>
+         <li> <en> en </en> </li>
+         <li> <strong> strong </strong> </li> 
+      </ul>
+    </ul>
+    
+  </body>
+  
+</html>
