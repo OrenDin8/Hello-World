@@ -1,0 +1,48 @@
+// ability to enforce rules and sturcture on diffrent parts of a form 
+//it's let you know that you have an error
+
+/* non empty*/
+// all we need to do is to add in the end of the label the word: require
+
+      <label for="Email">Email:</label>
+        <input id="Email" type:"text" placeholder="Email" require>
+      
+      
+        <label for="Password">Password:</label>
+        <input id="Password" type:"text" placeholder="Password" require>
+
+
+<-- Radio button-->
+
+<input type="radio">     use for one choice for few 
+<input type="checkbox">  user for multi option
+
+<!DOCTYPE html> 
+<html>
+  <head>
+  </head>
+  <body>
+    <h1>Login</h1>
+    <form action=" http://wikipedia.org">
+      <label for="Username">Username:</label>
+        <input id="Username" type:"text" placeholder="username" require>
+      
+      
+        <label for="Password">Password:</label>
+        <input id="Password" type:"text" placeholder="Password" require>
+        <input type="submit">
+    </form>
+    
+    <p> Do you prefer cats or dogs? </p>
+    <form>
+       <label for="dogs">dogs:</label>
+        <input name="patChoise" id="dogs" type:"text" type="radio" >
+      
+        <label for="cats">cats:</label>
+        <input name="patChoise" id="cats" type:"text" type="radio" >
+    </form>
+      
+  </body>
+</html>
+
+
